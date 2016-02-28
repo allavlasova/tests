@@ -1,0 +1,4 @@
+{ name => "Ivan Ivanov", marks => [3, 5, 3] }
+{ name => "Denis Isaev", marks => [5, 5] }
+{ name => "Ivan Remen", marks => [5, 4, 4, 3, 5] }
+{ name => "Olga Schetinnikova", marks => [] }
