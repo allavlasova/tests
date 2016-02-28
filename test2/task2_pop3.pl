@@ -50,7 +50,7 @@ sub Close{
 	my ($sock) =  @_;
 	print $sock "QUIT",CRLF;
 	my $msg = $sock->getline();
-	die "Bad password\n" unless $msg =~ /^\+OK/i;
+	die "Bad close\n" unless $msg =~ /^\+OK/i;
 }
 
 my $cfg = new Config::Simple('myconf.cfg');
